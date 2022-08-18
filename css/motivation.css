@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  font-family: 'Oswald', sans-serif;
+  background-color: #ffffff;
+  color: black;
+  font-size: 32px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#large_div {
+  
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  height: 70px;
+  padding-top: 2px;
+}
+
+img {
+  width: 80px;
+}
+
+a {
+  width:20%;
+  text-align:center;
+  text-decoration:none;
+}
+
+body {
+  background-color: #282A35;
+ 
+}
+
+.item:hover{
+  background-color: rgb(0, 255, 123);
+  opacity: 0.6;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.asc{
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  height: 10em;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+.asc-desc, #myBtn{
+  padding-top: 20px;
+}
+
+.asc1{
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  height: 10em;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+.asc-desc1{
+  padding-top: 20px;
+}
+
+.asc3{
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white;
+  height: 10em;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+.asc-desc3{
+  padding-top: 20px;
+}
+
+#asc-apply{
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+#asc1-review{
+  padding-top: 20px;
+ 
+}
+
+.test{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.asc-image{
+  position: relative;
+  bottom: 12em;
+  left: 90em;
+
+}
+
+.container{
+  height: 20em;
+  width: 49em;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}

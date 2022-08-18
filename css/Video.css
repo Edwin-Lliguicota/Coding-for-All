@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  font-family: 'Oswald', sans-serif;
+  background-color: #ffffff;
+  color: black;
+  font-size: 32px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#large_div {
+  
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  height: 70px;
+  padding-top: 2px;
+}
+
+img {
+  width: 80px;
+}
+
+a {
+  width:20%;
+  text-align:center;
+  text-decoration:none;
+}
+
+body {
+  background-color: #282A35;
+ 
+}
+
+.item:hover{
+  background-color: rgb(0, 255, 123);
+  opacity: 0.6;
+  font-family: 'Roboto Mono', monospace;
+} 
+
+
+.introduction{
+  border-style: solid;
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  height: 200px;
+}
+
+#intro{
+  text-align: center;
+  padding-top: 5px;
+}
+
+#javascript-text{
+  text-align: center;
+}
+
+#web-intro{
+  padding-top: 20px;
+
+}
