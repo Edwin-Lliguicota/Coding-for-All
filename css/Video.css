@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 
 .item {
@@ -48,13 +49,26 @@ body {
   background-color: white;
   font-family: 'Roboto Mono', monospace;
   height: 200px;
+  font-size:160%;
 }
 
+#bigboy {
+  display:flex;
+  font-size:30px;
+  padding-left:10px;
+  color:white;
+}
 #intro{
   text-align: center;
   padding-top: 5px;
 }
 
+/* flexbox starts here for js */
+#js {
+  
+  justify-content:flex-start;
+  flex-direction:column;
+}
 #javascript-text{
   text-align: center;
 }
@@ -62,4 +76,10 @@ body {
 #web-intro{
   padding-top: 20px;
 
+}
+/* flexbox for html starts here */
+#html {
+ 
+  justify-content: center;
+  flex-direction:column;
 }
